@@ -1,0 +1,47 @@
+{
+  "name": "proyectociclo4",
+  "version": "1.0.0",
+  "description": "Plataforma Efigas E.S.P",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FenX9/Proyecto.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Carlos Vargas <carlosvargas2232@gmail.com>, Gelver Villadiego <correo@correo.com>, Miguel Monsalvo <correo@correo.com>, Santiago Camacho <correo@correo.com>,",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FenX9/Proyecto/issues"
+  },
+  "homepage": "https://FenX9.github.io/Proyecto",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "bootstrap": "^5.1.3",
+    "css-loader": "^6.5.1",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.43.4",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.3",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
