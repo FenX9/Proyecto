@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 const App = () => {
     return (
-        <body>
+        <div>
                             
             {/*<!-- ======= Top Bar ======= --> */}
             <div id="topbar" className="fixed-top d-flex align-items-center ">
@@ -185,14 +185,14 @@ const App = () => {
 
                 <div className="clients-slider swiper">
                     <div className="swiper-wrapper align-items-center">
-                    <div className="swiper-slide"><img src="assets/img/clients/client-1.png" className="img-fluid" alt=""/></div>
-                    <div className="swiper-slide"><img src="assets/img/clients/client-2.png" className="img-fluid" alt=""/></div>
-                    <div className="swiper-slide"><img src="assets/img/clients/client-3.png" className="img-fluid" alt=""/></div>
-                    <div className="swiper-slide"><img src="assets/img/clients/client-4.png" className="img-fluid" alt=""/></div>
-                    <div className="swiper-slide"><img src="assets/img/clients/client-5.png" className="img-fluid" alt=""/></div>
-                    <div className="swiper-slide"><img src="assets/img/clients/client-6.png" className="img-fluid" alt=""/></div>
-                    <div className="swiper-slide"><img src="assets/img/clients/client-7.png" className="img-fluid" alt=""/></div>
-                    <div className="swiper-slide"><img src="assets/img/clients/client-8.png" className="img-fluid" alt=""/></div>
+                    <div className="swiper-slide"><img src="../assetsH/img/clients/client-1.png" className="img-fluid" alt=""/></div>
+                    <div className="swiper-slide"><img src="../assetsH/img/clients/client-2.png" className="img-fluid" alt=""/></div>
+                    <div className="swiper-slide"><img src="../assetsH/img/clients/client-3.png" className="img-fluid" alt=""/></div>
+                    <div className="swiper-slide"><img src="../assetsH/img/clients/client-4.png" className="img-fluid" alt=""/></div>
+                    <div className="swiper-slide"><img src="../assetsH/img/clients/client-5.png" className="img-fluid" alt=""/></div>
+                    <div className="swiper-slide"><img src="../assetsH/img/clients/client-6.png" className="img-fluid" alt=""/></div>
+                    <div className="swiper-slide"><img src="../assetsH/img/clients/client-7.png" className="img-fluid" alt=""/></div>
+                    <div className="swiper-slide"><img src="../assetsH/img/clients/client-8.png" className="img-fluid" alt=""/></div>
                     </div>
                     <div className="swiper-pagination"></div>
                 </div>
@@ -528,18 +528,8 @@ const App = () => {
 
             <div id="preloader"></div>
             <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
-
-            {/*<!-- Vendor JS Files --> */}
-            <script src="../../public/assetsH/vendor/aos/aos.js"></script>
-            <script src="../../public/assetsH/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-            <script src="../../public/assetsH/vendor/glightbox/js/glightbox.min.js"></script>
-            <script src="../../public/assetsH/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-            <script src="../../public/assetsH/vendor/swiper/swiper-bundle.min.js"></script>
-            <script src="../../public/assetsH/vendor/php-email-form/validate.js"></script>
-
-            {/*<!-- Template Main JS File --> */}
-            <script src="../../public/assetsH/js/main.js"></script>           
-        </body>
+           
+        </div>
 
     );
 }
