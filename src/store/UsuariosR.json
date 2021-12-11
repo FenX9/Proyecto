@@ -1,0 +1,93 @@
+[
+    
+    {
+        "id": "1325225",
+        "name": "Carlos",
+        "lastName": "Vargas",
+        "email": "Carlos.Vargas@empresa.com",
+        "role": "Admin",
+        "contraseña": "Carlos654"
+    },
+
+    {
+        "id": "1235235",
+        "name": "Gelver",
+        "lastName": "Villadiego",
+        "email": "Gelver.Villadiego@empresa.com",
+        "role": "Admin",
+        "contraseña": "Gelver627"
+    },
+
+    {
+        "id": "1647846",
+        "name": "Miguel",
+        "lastName": "Monsalvo",
+        "email": "Miguel.Monsalvo@empresa.com",
+        "role": "Admin",
+        "contraseña": "Miguel893"
+    },
+
+    {
+        "id": "11523678",
+        "name": "Santiago",
+        "lastName": "Camacho",
+        "email": "Santiago.Camacho@empresa.com",
+        "role": "Admin",
+        "contraseña": "Santiago893"
+    },
+    
+    {
+        "id": "2234234",
+        "name": "alfonso",
+        "lastName": "perez",
+        "email": "alfonso.perez@empresa.com",
+        "role": "Usuario Interno",
+        "contraseña": "alfonsoContra432"
+    },
+
+    {
+        "id": "245636",
+        "name": "Andres",
+        "lastName": "peña",
+        "email": "Andres.peña@empresa.com",
+        "role": "Usuario Interno",
+        "contraseña": "AndresContra546"
+    },
+
+    {
+        "id": "2873525",
+        "name": "Stiven",
+        "lastName": "calargo",
+        "email": "Stiven.calargo@empresa.com",
+        "role": "Usuario Interno",
+        "contraseña": "StivenContra654"
+    },
+
+    {
+        "id": "3235235",
+        "name": "Estevan",
+        "lastName": "Camacho",
+        "email": "Estevan.Camacho@empresa.com",
+        "role": "Usuario Externo",
+        "contraseña": "Estevan893"
+    },
+
+    {
+        "id": "3463467",
+        "name": "Juan",
+        "lastName": "Medina",
+        "email": "Juan.Medina@empresa.com",
+        "role": "Usuario Externo",
+        "contraseña": "Juan465"
+    },
+
+    {
+        "id": "3346737",
+        "name": "Lina",
+        "lastName": "Amado",
+        "email": "Lina.Amado@empresa.com",
+        "role": "Usuario Externo",
+        "contraseña": "Lina986"
+    }
+]
+    
