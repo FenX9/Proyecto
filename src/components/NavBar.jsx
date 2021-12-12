@@ -2,9 +2,9 @@ import React, { Fragment } from 'react';
 
 const Index = () => {
     return (
-        <div>
+        <Fragment>
             
-        </div>
+        </Fragment>
     );
 }
 
