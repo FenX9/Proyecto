@@ -1,13 +1,15 @@
 import React, { Fragment } from 'react';
+import NavBar from '../components/NavBar'
 
 const App = () => {
     return (
         <div>
                                 
             {/* <!-- ======= Header ======= --> */}
-            <header >
-
-            </header>{/* <!-- End Header --> */}
+            <NavBar>
+                
+            </NavBar>
+            {/* <!-- End Header --> */}
 
             {/* <!-- ======= Hero Section ======= --> */}
             <section id="hero" className="hero d-flex align-items-center">
@@ -257,9 +259,9 @@ const App = () => {
                     <div className="row gy-4">
                     <div className="col-lg-5 col-md-12 footer-info">
                         <a href="index.html" className="logo d-flex align-items-center">
-                        <img src="%PUBLIC_URL%/../assetsH/img/logo.png" alt=""/>
-                        <span>FlexStart</span>
-                        </a>
+                        <img src="%PUBLIC_URL%/../assetsD/img/logo.png" alt=""/>
+                        <span className="d-none d-lg-block">Efigas E.S.P</span>
+                        </a>   
                         <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
                         <div className="social-links mt-3">
                         <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
