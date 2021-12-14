@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
-import NavBar from '../components/NavBar'
+import NavBar from '../components/NavBar';
+
+import { Link } from "react-router-dom";
 
 const App = () => {
     return (

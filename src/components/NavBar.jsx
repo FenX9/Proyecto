@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
 
+import { Link } from "react-router-dom";
+
 const NavBar = () => {
     return (
         <Fragment>
@@ -202,6 +204,12 @@ const NavBar = () => {
                         <a className="dropdown-item d-flex align-items-center" href="users-profile.html">
                             <i className="bi bi-gear"></i>
                             <span>Account Settings</span>
+                        </a>
+                        </li>
+                        <li>
+                        <a className="dropdown-item d-flex align-items-center" href="users-profile.html">
+                            <i className="bi bi-gear"></i>
+                            <span>Login</span>
                         </a>
                         </li>
                         <li>
