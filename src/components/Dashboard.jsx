@@ -1,8 +1,12 @@
 import React, { Fragment } from "react";
+import NavBar from '../components/NavBar';
 
 const Dashboard = () => {
   return (
     <body>
+        <NavBar>
+            
+        </NavBar>
       {/* <!-- ======= Sidebar ======= --> */}
       <aside id="sidebar" className="sidebar">
         <ul className="sidebar-nav" id="sidebar-nav">
