@@ -1,94 +1,13 @@
 import React, { Fragment } from "react";
-import NavBar from '../components/NavBar';
+import NavBar from "../components/NavBar";
 
 const Dashboard = () => {
   return (
-    <body>
-        <NavBar>
-            
-        </NavBar>
-      {/* <!-- ======= Sidebar ======= --> */}
-      <aside id="sidebar" className="sidebar">
-        <ul className="sidebar-nav" id="sidebar-nav">
-          <li className="nav-item">
-            <a className="nav-link " href="index.html">
-              <i className="bi bi-grid"></i>
-              <span>Dashboard</span>
-            </a>
-          </li>
-          {/* <!-- End Dashboard Nav --> */}
+    <Fragment>
+      <NavBar>
 
-          <li className="nav-item">
-            <a
-              className="nav-link collapsed"
-              data-bs-target="#components-nav"
-              data-bs-toggle="collapse"
-              href="#"
-            >
-              <i className="bi bi-menu-button-wide"></i>
-              <span>Components</span>
-              <i className="bi bi-chevron-down ms-auto"></i>
-            </a>
-            <ul
-              id="components-nav"
-              className="nav-content collapse "
-              data-bs-parent="#sidebar-nav"
-            >
-              <li>
-                <a href="components-alerts.html">
-                  <i className="bi bi-circle"></i>
-                  <span>Alerts</span>
-                </a>
-              </li>
-            </ul>
-          </li>
-          {/* <!-- End Components Nav --> */}
-
-          <li className="nav-heading">Pages</li>
-
-          <li className="nav-item">
-            <a className="nav-link collapsed" href="users-profile.html">
-              <i className="bi bi-person"></i>
-              <span>Profile</span>
-            </a>
-          </li>
-          {/* <!-- End Profile Page Nav --> */}
-
-          <li className="nav-item">
-            <a className="nav-link collapsed" href="pages-contact.html">
-              <i className="bi bi-envelope"></i>
-              <span>Contact</span>
-            </a>
-          </li>
-          {/* <!-- End Contact Page Nav --> */}
-
-          <li className="nav-item">
-            <a className="nav-link collapsed" href="pages-register.html">
-              <i className="bi bi-card-list"></i>
-              <span>Register</span>
-            </a>
-          </li>
-          {/* <!-- End Register Page Nav --> */}
-
-          <li className="nav-item">
-            <a className="nav-link collapsed" href="pages-login.html">
-              <i className="bi bi-box-arrow-in-right"></i>
-              <span>Login</span>
-            </a>
-          </li>
-          {/* <!-- End Login Page Nav --> */}
-
-          <li className="nav-item">
-            <a className="nav-link collapsed" href="pages-error-404.html">
-              <i className="bi bi-dash-circle"></i>
-              <span>Error 404</span>
-            </a>
-          </li>
-          {/* <!-- End Error 404 Page Nav --> */}
-        </ul>
-      </aside>
-      {/* <!-- End Sidebar--> */}
-
+      </NavBar>
+      
       <main id="main" className="main">
         <div className="pagetitle">
           <h1>Dashboard</h1>
@@ -137,7 +56,6 @@ const Dashboard = () => {
                 {/* <!-- Sales Card --> */}
                 <div className="col-xxl-4 col-md-6">
                   <div className="card info-card sales-card">
-
                     <div className="card-body">
                       <h5 className="card-title">
                         Sales <span>| Today</span>
@@ -165,7 +83,6 @@ const Dashboard = () => {
                 {/* <!-- Revenue Card --> */}
                 <div className="col-xxl-4 col-md-6">
                   <div className="card info-card revenue-card">
-
                     <div className="card-body">
                       <h5 className="card-title">
                         Revenue <span>| This Month</span>
@@ -179,14 +96,13 @@ const Dashboard = () => {
                           <h6>$3,264</h6>
                           <span className="text-success small pt-1 fw-bold">
                             8%
-                          </span>{" "}
+                          </span>
                           <span className="text-muted small pt-2 ps-1">
                             increase
                           </span>
                         </div>
                       </div>
                     </div>
-
                   </div>
                 </div>
                 {/* <!-- End Revenue Card --> */}
@@ -215,7 +131,6 @@ const Dashboard = () => {
                         </div>
                       </div>
                     </div>
-
                   </div>
                 </div>
                 {/* <!-- End Customers Card --> */}
@@ -223,7 +138,6 @@ const Dashboard = () => {
                 {/* <!-- Recent Sales --> */}
                 <div className="col-12">
                   <div className="card recent-sales">
-
                     <div className="card-body">
                       <h5 className="card-title">
                         Recent Sales <span>| Hoy</span>
@@ -447,10 +361,9 @@ const Dashboard = () => {
       </footer>
       {/* <!-- End Footer --> */}
 
-      <a href="#" className="back-to-top d-flex align-items-center justify-content-center">
-        <i className="bi bi-arrow-up-short"></i>
-      </a>
-    </body>
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    </Fragment>
   );
 };
 
