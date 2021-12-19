@@ -25,21 +25,21 @@ const Register = () => {
                                             <p className="text-center small">Ingresa los detalles requiridos para crear una cuenta</p>
                                         </div>
 
-                                        <form className="row g-3 needs-validation" novalidate>
+                                        <form className="row g-3 needs-validation" noValidate>
                                             <div className="col-12">
-                                                <label for="yourName" className="form-label">Nombre</label>
+                                                <label htmlFor="yourName" className="form-label">Nombre</label>
                                                 <input type="text" name="name" className="form-control" id="yourName" required/>
                                                 <div className="invalid-feedback">Ingresa tu nombre!</div>
                                             </div>
 
                                             <div className="col-12">
-                                                <label for="yourEmail" className="form-label">Email</label>
+                                                <label htmlFor="yourEmail" className="form-label">Email</label>
                                                 <input type="email" name="email" className="form-control" id="yourEmail" required/>
                                                 <div className="invalid-feedback">Ingresa tu correo de email!</div>
                                             </div>
 
                                             <div className="col-12">
-                                                <label for="yourUsername" className="form-label">Usuario</label>
+                                                <label htmlFor="yourUsername" className="form-label">Usuario</label>
                                                 <div className="input-group has-validation">
                                                 {/* <!--<span className="input-group-text" id="inputGroupPrepend">@</span>--> */}
                                                 <input type="text" name="username" className="form-control" id="yourUsername" required/>
@@ -48,7 +48,7 @@ const Register = () => {
                                             </div>
 
                                             <div className="col-12">
-                                                <label for="yourPassword" className="form-label">Contraseña</label>
+                                                <label htmlFor="yourPassword" className="form-label">Contraseña</label>
                                                 <input type="password" name="password" className="form-control" id="yourPassword" required/>
                                                 <div className="invalid-feedback">Elige una contraseña!</div>
                                             </div>
@@ -56,7 +56,7 @@ const Register = () => {
                                             {/* <!--<div className="col-12">
                                                 <div className="form-check">
                                                 <input className="form-check-input" name="terms" type="checkbox" value="" id="acceptTerms" required>
-                                                <label className="form-check-label" for="acceptTerms">I agree and accept the <a href="#">terms and conditions</a></label>
+                                                <label className="form-check-label" htmlFor="acceptTerms">I agree and accept the <a href="#">terms and conditions</a></label>
                                                 <div className="invalid-feedback">You must agree before submitting.</div>
                                                 </div>
                                             </div>--> */}
